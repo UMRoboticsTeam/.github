@@ -1,7 +1,7 @@
 # University of Manitoba Robotics Team
 The University of Manitoba Robotics Team ([UMRT](https://umrt.ca)) is a design team of undergraduate students, primarily from Computer, Electrical, and Mechanical Engineering as well as Computer Science, who design a mars-style rover for the [Canadian International Rover Challenge](https://circ.cstag.ca/).
 
-The team is divided into 5 sections:
+The team is divided into 6 sections:
 - **Chassis**, which deals with the mechanical design of the rover body.
 - **Communications-Operations**, which deals with the communication link between the rover and base station, as well as base station design and operation.
 - **Electrical**, which deals with the electrical architecture of the rover and the battery system.
@@ -56,14 +56,14 @@ Generally, each repository is "owned" by one of the above sections.
 
 | Repository                                                                                         | Description | Status  |
 |----------------------------------------------------------------------------------------------------|-------------|---------|
-| [umrt-comms-foxglove-extensions](https://github.com/UMRoboticsTeam/umrt-comms-foxglove-extensions) |             | Current |
+| [umrt-comms-foxglove-extensions](https://github.com/UMRoboticsTeam/umrt-comms-foxglove-extensions) | Collection of custom Foxglove UI extensions used on the comm-ops base station | Current |
 
 ### Exec/Outreach
 
 | Repository                                                                                           | Description      | Status  |
 |------------------------------------------------------------------------------------------------------|------------------|---------|
-| [umrt-outreach-robotcar-wireless](https://github.com/UMRoboticsTeam/umrt-outreach-robotcar-wireless) |                  | Current |
-| [umrt-website](https://github.com/UMRoboticsTeam/umrt-website)                                       | Official website | Current |
+| [umrt-outreach-robotcar-wireless](https://github.com/UMRoboticsTeam/umrt-outreach-robotcar-wireless) | Outreach Arduino showcase program for the Elegoo Smart Robot Car Kit v4.0 with wireless camera feed and control | Current |
+| [umrt-website](https://github.com/UMRoboticsTeam/umrt-website)                                       | Official website built with Nuxt and Vue.js, hosted at [umrt.ca](https://umrt.ca/) | Current |
 | [Outreach-RobotCar-Template](https://github.com/UMRoboticsTeam/Outreach-RobotCar-Template)           |                  | ?       |
 
 
