@@ -44,12 +44,19 @@ Generally, each repository is "owned" by one of the above sections.
 
 ### Embedded
 
-| Repository                                                                                     | Description | Status    |
-|------------------------------------------------------------------------------------------------|-------------|-----------|
-| [umrt-ros](https://github.com/UMRoboticsTeam/umrt-ros)                                         |             | Current   |
-| [umrt-stm](https://github.com/UMRoboticsTeam/umrt-stm)                                         |             | Current   |
-| [oak-poe-rtsp-autoboot](https://github.com/UMRoboticsTeam/oak-poe-rtsp-autoboot)               |             | Abandoned |
-| [embedded-controller-firmware](https://github.com/UMRoboticsTeam/embedded-controller-firmware) |             | Abandoned |
+| Repository                                                                                     | Description                        | Status                  |
+|------------------------------------------------------------------------------------------------|------------------------------------|-------------------------|
+| [umrt-ros](https://github.com/UMRoboticsTeam/umrt-ros)                                         | Monorepo for Prarie Pioneer        | Used on Prairie Pioneer |
+| [umrt-stm](https://github.com/UMRoboticsTeam/umrt-stm)                                         |                                    | Current |
+| [umrt-ros-poe-cam](https://github.com/UMRoboticsTeam/umrt-ros-poe-cam)                         | ROS Package for the PoE Camera     | Current |
+| [umrt-serial-cam-ros](https://github.com/UMRoboticsTeam/umrt-serial-cam-ros)                   | ROS Package for the Serial Cameras | Current |
+| [umrt-emb-imu-driver](https://github.com/UMRoboticsTeam/umrt-emb-imu-driver)                   | C++ Library for the IMU            | Current |
+| [umrt-emb-imu-ros](https://github.com/UMRoboticsTeam/umrt-emb-imu-ros)                         | ROS Package for the IMU            | Current |
+| [umrt-geiger-driver](https://github.com/UMRoboticsTeam/umrt-geiger-driver)                     | C++ Library for the Geiger Counter | Current |
+| [umrt-emb-geiger-ros](https://github.com/UMRoboticsTeam/umrt-emb-geiger-ros)                   | ROS Package for the Geiger Counter | Current |
+| [umrt-drivetrain-ros](https://github.com/UMRoboticsTeam/umrt-drivetrain-ros)                   | ROS Pacakge for the Drivetrain     | Used on Project Perry, soon to be Abandonded |
+| [oak-poe-rtsp-autoboot](https://github.com/UMRoboticsTeam/oak-poe-rtsp-autoboot)               |                                    | Abandoned |
+| [embedded-controller-firmware](https://github.com/UMRoboticsTeam/embedded-controller-firmware) |                                    | Abandoned |
 
 
 ### Comm-Ops
