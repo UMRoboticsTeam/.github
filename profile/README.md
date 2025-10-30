@@ -44,8 +44,8 @@ Generally, each repository is "owned" by one of the above sections.
 
 ### Embedded
 
-| Repository                                                                                     | Description                        | Status                  |
-|------------------------------------------------------------------------------------------------|------------------------------------|-------------------------|
+| Repository                                                                                     | Description                        | Status    |
+|------------------------------------------------------------------------------------------------|------------------------------------|-----------|
 | [umrt-ros](https://github.com/UMRoboticsTeam/umrt-ros)                                         | Monorepo for Prarie Pioneer        | Used on Prairie Pioneer |
 | [umrt-stm](https://github.com/UMRoboticsTeam/umrt-stm)                                         |                                    | Current |
 | [umrt-ros-poe-cam](https://github.com/UMRoboticsTeam/umrt-ros-poe-cam)                         | ROS Package for the PoE Camera     | Current |
