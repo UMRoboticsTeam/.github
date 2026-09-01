@@ -61,9 +61,11 @@ Generally, each repository is "owned" by one of the above sections.
 
 ### Comm-Ops
 
-| Repository                                                                                         | Description | Status  |
-|----------------------------------------------------------------------------------------------------|-------------|---------|
-| [umrt-comms-foxglove-extensions](https://github.com/UMRoboticsTeam/umrt-comms-foxglove-extensions) | Collection of custom Foxglove UI extensions used on the comm-ops base station | Current |
+| Repository                                                                                         | Description                                                      | Status  |
+|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------|---------|
+| [umrt-foxglove-collection](https://github.com/UMRoboticsTeam/umrt-foxglove-collection)             | Collection of custom Foxglove UI extensions used on base station | Current |
+| [umrt-com-antenna](https://github.com/UMRoboticsTeam/umrt-com-antenna)                             | ROS Package for the comms antenna stand                          | Current |
+| [umrt-base-station](https://github.com/UMRoboticsTeam/umrt-base-station)                           | Docker image used on base station                                | Needs updating |
 
 ### Exec/Outreach
 
@@ -71,7 +73,7 @@ Generally, each repository is "owned" by one of the above sections.
 |------------------------------------------------------------------------------------------------------|------------------|---------|
 | [umrt-outreach-robotcar-wireless](https://github.com/UMRoboticsTeam/umrt-outreach-robotcar-wireless) | Outreach Arduino showcase program for the Elegoo Smart Robot Car Kit v4.0 with wireless camera feed and control | Current |
 | [umrt-website](https://github.com/UMRoboticsTeam/umrt-website)                                       | Official website built with Nuxt and Vue.js, hosted at [umrt.ca](https://umrt.ca/) | Current |
-| [Outreach-RobotCar-Template](https://github.com/UMRoboticsTeam/Outreach-RobotCar-Template)           |                  | ?       |
+| [Outreach-RobotCar-Template](https://github.com/UMRoboticsTeam/Outreach-RobotCar-Template)           | Outreach Arduino bot used for sumo bot fights | Current |
 
 
 
