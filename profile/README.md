@@ -18,13 +18,14 @@ Generally, each repository is "owned" by one of the above sections. Some reposit
 
 Out of this set, `umrt-build` is the most important repository.
 
-| Repository                                                               | Description                                                                              | Status  |
-| ------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------- | ------- |
-| [umrt-build](https://github.com/UMRoboticsTeam/umrt-build)               | Docker image containing all dependencies needed to build UMRT software packages          | Current |
-| [umrt-template-ros](https://github.com/UMRoboticsTeam/umrt-template-ros) | Template for UMRT ROS project repositories                                               | Current |
-| [umrt-template](https://github.com/UMRoboticsTeam/umrt-template)         | Template for general UMRT Git repositories                                               | Current |
-| [umrt-ci-cd](https://github.com/UMRoboticsTeam/umrt-ci-cd)               | Continuous integration/development workflows for the UMRT build system and PR management | Current |
-| [umrt-apt-image](https://github.com/UMRoboticsTeam/umrt-apt-image)       | Docker image containing tools for managing UMRT's internal debian repository             | Current |
+| Repository                                                                               | Description                                                                              | Status  |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------- |
+| [umrt-build](https://github.com/UMRoboticsTeam/umrt-build)                               | Docker image containing all dependencies needed to build UMRT software packages          | Current |
+| [umrt-template-ros](https://github.com/UMRoboticsTeam/umrt-template-ros)                 | Template for UMRT ROS project repositories                                               | Current |
+| [umrt-template](https://github.com/UMRoboticsTeam/umrt-template)                         | Template for general UMRT Git repositories                                               | Current |
+| [umrt-ci-cd](https://github.com/UMRoboticsTeam/umrt-ci-cd)                               | Continuous integration/development workflows for the UMRT build system and PR management | Current |
+| [umrt-apt-image](https://github.com/UMRoboticsTeam/umrt-apt-image)                       | Docker image containing tools for managing UMRT's internal debian repository             | Current |
+| [umrt-project-perry-config](https://github.com/UMRoboticsTeam/umrt-project-perry-config) | Configuration files specific to a specific rover revision.                               | Current |
 
 
 ### Robotic Arm
