@@ -18,28 +18,28 @@ Generally, each repository is "owned" by one of the above sections. Some reposit
 
 Out of this set, `umrt-build` is the most important repository. The `ros2_j1939_babbler`, or just "the babbler" is also a very important package for our workflow, but it is complete and mostly just needs to be maintained.
 
-| Repository                                                                               | Description                                                                              | Status  |
-| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------- |
-| [umrt-build](https://github.com/UMRoboticsTeam/umrt-build)                               | Docker image containing all dependencies needed to build UMRT software packages          | Current |
-| [umrt-template-ros](https://github.com/UMRoboticsTeam/umrt-template-ros)                 | Template for UMRT ROS project repositories                                               | Current |
-| [umrt-template](https://github.com/UMRoboticsTeam/umrt-template)                         | Template for general UMRT Git repositories                                               | Current |
-| [umrt-ci-cd](https://github.com/UMRoboticsTeam/umrt-ci-cd)                               | Continuous integration/development workflows for the UMRT build system and PR management | Current |
-| [umrt-apt-image](https://github.com/UMRoboticsTeam/umrt-apt-image)                       | Docker image containing tools for managing UMRT's internal debian repository             | Current |
-| [umrt-project-perry-config](https://github.com/UMRoboticsTeam/umrt-project-perry-config) | Configuration files specific to a specific rover revision.                               | Current |
-| [ros2_j1939_babbler](https://github.com/UMRoboticsTeam/ros2_j1939_babbler)                 | A bidirectional ROS-based J1939-to-ROS converter that can transform any CAN message from a DBC file.   | Maintenance |
+| Repository                                                                               | Description                                                                                          | Status      |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- | ----------- |
+| [umrt-build](https://github.com/UMRoboticsTeam/umrt-build)                               | Docker image containing all dependencies needed to build UMRT software packages                      | Current     |
+| [umrt-template-ros](https://github.com/UMRoboticsTeam/umrt-template-ros)                 | Template for UMRT ROS project repositories                                                           | Current     |
+| [umrt-template](https://github.com/UMRoboticsTeam/umrt-template)                         | Template for general UMRT Git repositories                                                           | Current     |
+| [umrt-ci-cd](https://github.com/UMRoboticsTeam/umrt-ci-cd)                               | Continuous integration/development workflows for the UMRT build system and PR management             | Current     |
+| [umrt-apt-image](https://github.com/UMRoboticsTeam/umrt-apt-image)                       | Docker image containing tools for managing UMRT's internal debian repository                         | Current     |
+| [umrt-project-perry-config](https://github.com/UMRoboticsTeam/umrt-project-perry-config) | Configuration files specific to a specific rover revision.                                           | Current     |
+| [ros2_j1939_babbler](https://github.com/UMRoboticsTeam/ros2_j1939_babbler)               | A bidirectional ROS-based J1939-to-ROS converter that can transform any CAN message from a DBC file. | Maintenance |
 
 
 ### Robotic Arm
 
 Out of this set, `umrt-arm-ros-firmware` is the most important repository.
 
-| Repository                                                                                 | Description                                                                                    | Status      |
-| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- | ----------- |
-| [umrt-arm-ros-firmware](https://github.com/UMRoboticsTeam/umrt-arm-ros-firmware)           | ROS software for controlling the arm via ros2_control                                          | Current     |
-| [umrt-arm-firmware-lib](https://github.com/UMRoboticsTeam/umrt-arm-firmware-lib)           | C++ library for controlling the arm's stepper motors from the high-level computer              | Current     |
-| [umrt-arm-encoder-driver](https://github.com/UMRoboticsTeam/umrt-arm-encoder-driver)       | C++ library for interpreting the CAN messages published by the arm's rotary encoders           | Current     |
-| [umrt-arm-encoder-ros](https://github.com/UMRoboticsTeam/umrt-arm-encoder-ros)             | ROS software for publishing the data received from the arm's rotary encoders. Not implemented. | Current     |
-| [umrt-arm-joystick-operator](https://github.com/UMRoboticsTeam/umrt-arm-joystick-operator) | ROS node for using a joystick with the arm. Including realtime control.                        | Current     |
+| Repository                                                                                 | Description                                                                                    | Status  |
+| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- | ------- |
+| [umrt-arm-ros-firmware](https://github.com/UMRoboticsTeam/umrt-arm-ros-firmware)           | ROS software for controlling the arm via ros2_control                                          | Current |
+| [umrt-arm-firmware-lib](https://github.com/UMRoboticsTeam/umrt-arm-firmware-lib)           | C++ library for controlling the arm's stepper motors from the high-level computer              | Current |
+| [umrt-arm-encoder-driver](https://github.com/UMRoboticsTeam/umrt-arm-encoder-driver)       | C++ library for interpreting the CAN messages published by the arm's rotary encoders           | Current |
+| [umrt-arm-encoder-ros](https://github.com/UMRoboticsTeam/umrt-arm-encoder-ros)             | ROS software for publishing the data received from the arm's rotary encoders. Not implemented. | Current |
+| [umrt-arm-joystick-operator](https://github.com/UMRoboticsTeam/umrt-arm-joystick-operator) | ROS node for using a joystick with the arm. Including realtime control.                        | Current |
 
 
 ### Embedded
@@ -84,11 +84,11 @@ These are kept separate to not clutter the above list.
 
 ### Intersectional
 
-| Repository                                                                       | Description                                                                                                                                                                                                                                                                                                                   | Status     |
-| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| [umrt-design-documents](https://github.com/UMRoboticsTeam/umrt-design-documents) | Internal LaTeX documentation covering general system topics                                                                                                                                                                                                                                                                   | Not in use |
-| [ros_buildfarm](https://github.com/UMRoboticsTeam/ros_buildfarm)                 | Fork of [ros-infrastructure/ros_buildfarm](https://github.com/ros-infrastructure/ros-buildfarm) that has been modified to support running in a Docker container. Was developed as part of an investigation into the CI/CD system, but was abandoned due to poor build performance and inconvenient configuration requirements | Not in use |
-| [ros2_j1939_babbler_msgs](https://github.com/UMRoboticsTeam/ros2_j1939_babbler_msgs)       | A defunct interface package for `ros2_j1939_babbler`'s messages. Was used during the development process before the message building was combined into the main babbler repo | Not in use |
+| Repository                                                                           | Description                                                                                                                                                                                                                                                                                                                   | Status     |
+| ------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| [umrt-design-documents](https://github.com/UMRoboticsTeam/umrt-design-documents)     | Internal LaTeX documentation covering general system topics                                                                                                                                                                                                                                                                   | Not in use |
+| [ros_buildfarm](https://github.com/UMRoboticsTeam/ros_buildfarm)                     | Fork of [ros-infrastructure/ros_buildfarm](https://github.com/ros-infrastructure/ros-buildfarm) that has been modified to support running in a Docker container. Was developed as part of an investigation into the CI/CD system, but was abandoned due to poor build performance and inconvenient configuration requirements | Not in use |
+| [ros2_j1939_babbler_msgs](https://github.com/UMRoboticsTeam/ros2_j1939_babbler_msgs) | A defunct interface package for `ros2_j1939_babbler`'s messages. Was used during the development process before the message building was combined into the main babbler repo                                                                                                                                                  | Not in use |
 
 
 ### Robotic Arm
