@@ -12,11 +12,11 @@ The team is divided into 6 sections:
 ## Repositories
 
 The rover software system is split into many different Git repositories, each responsible for a particular portion of the system.
-Generally, each repository is "owned" by one of the above sections. Some repositories listed important for all sections. Repositories not currently in use are listed at the bottom.
+Generally, each repository is "owned" by one of the above sections. Some repositories listed are important for all sections. Repositories not currently in use are listed at the bottom.
 
 ### Intersectional
 
-Out of this set, `umrt-build` is the most important repository.
+Out of this set, `umrt-build` is the most important repository. The `ros2_j1939_babbler`, or just "the babbler" is also a very important package for our workflow, but it is complete and mostly just needs to be maintained.
 
 | Repository                                                                               | Description                                                                              | Status  |
 | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | ------- |
@@ -26,11 +26,12 @@ Out of this set, `umrt-build` is the most important repository.
 | [umrt-ci-cd](https://github.com/UMRoboticsTeam/umrt-ci-cd)                               | Continuous integration/development workflows for the UMRT build system and PR management | Current |
 | [umrt-apt-image](https://github.com/UMRoboticsTeam/umrt-apt-image)                       | Docker image containing tools for managing UMRT's internal debian repository             | Current |
 | [umrt-project-perry-config](https://github.com/UMRoboticsTeam/umrt-project-perry-config) | Configuration files specific to a specific rover revision.                               | Current |
+| [ros2_j1939_babbler](https://github.com/UMRoboticsTeam/ros2_j1939_babbler)                 | A bidirectional ROS-based J1939-to-ROS converter that can transform any CAN message from a DBC file.   | Maintenance |
 
 
 ### Robotic Arm
 
-Out of this set, `umrt-arm-ros-firmware` is the most important repository. The `ros2_j1939_babbler`, or just "the babbler" is also a very important package for our workflow, but it is complete and mostly just needs to be maintained.
+Out of this set, `umrt-arm-ros-firmware` is the most important repository.
 
 | Repository                                                                                 | Description                                                                                    | Status      |
 | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- | ----------- |
@@ -39,8 +40,6 @@ Out of this set, `umrt-arm-ros-firmware` is the most important repository. The `
 | [umrt-arm-encoder-driver](https://github.com/UMRoboticsTeam/umrt-arm-encoder-driver)       | C++ library for interpreting the CAN messages published by the arm's rotary encoders           | Current     |
 | [umrt-arm-encoder-ros](https://github.com/UMRoboticsTeam/umrt-arm-encoder-ros)             | ROS software for publishing the data received from the arm's rotary encoders. Not implemented. | Current     |
 | [umrt-arm-joystick-operator](https://github.com/UMRoboticsTeam/umrt-arm-joystick-operator) | ROS node for using a joystick with the arm. Including realtime control.                        | Current     |
-| [ros2_j1939_babbler](https://github.com/UMRoboticsTeam/ros2_j1939_babbler)                 | A custom ROS-based J1939-to-ROS converter that can tranform any CAN message from a DBC file.   | Maintenance |
-| [ros2_j1939_babbler_msgs](https://github.com/UMRoboticsTeam/ros2_j1939_babbler_msgs)       | A package template for creating messages for `ros2_j1939_babbler` to use.                      | Maintenance |
 
 
 ### Embedded
@@ -89,6 +88,7 @@ These are kept separate to not clutter the above list.
 | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
 | [umrt-design-documents](https://github.com/UMRoboticsTeam/umrt-design-documents) | Internal LaTeX documentation covering general system topics                                                                                                                                                                                                                                                                   | Not in use |
 | [ros_buildfarm](https://github.com/UMRoboticsTeam/ros_buildfarm)                 | Fork of [ros-infrastructure/ros_buildfarm](https://github.com/ros-infrastructure/ros-buildfarm) that has been modified to support running in a Docker container. Was developed as part of an investigation into the CI/CD system, but was abandoned due to poor build performance and inconvenient configuration requirements | Not in use |
+| [ros2_j1939_babbler_msgs](https://github.com/UMRoboticsTeam/ros2_j1939_babbler_msgs)       | A defunct interface package for `ros2_j1939_babbler`'s messages. Was used during the development process before the message building was combined into the main babbler repo | Not in use |
 
 
 ### Robotic Arm
