@@ -27,7 +27,7 @@ Out of this set, `umrt-build` is the most important repository. The `ros2_j1939_
 | [umrt-apt-image](https://github.com/UMRoboticsTeam/umrt-apt-image)                       | Docker image containing tools for managing UMRT's internal debian repository                         | Current     |
 | [umrt-project-perry-config](https://github.com/UMRoboticsTeam/umrt-project-perry-config) | Configuration files specific to a specific rover revision.                                           | Current     |
 | [ros2_j1939_babbler](https://github.com/UMRoboticsTeam/ros2_j1939_babbler)               | A bidirectional ROS-based J1939-to-ROS converter that can transform any CAN message from a DBC file. | Maintenance |
-
+| [umrt-rover](https://github.com/UMRoboticsTeam/umrt-rover)                               | The docker container that runs on the rover                                                          | Current     |
 
 ### Robotic Arm
 
@@ -66,9 +66,11 @@ Most of electrical's other files are stored in RapidHarness or Onshape.
 
 ### Comm-Ops
 
-| Repository                                                             | Description                             | Status  |
-| ---------------------------------------------------------------------- | --------------------------------------- | ------- |
-| [umrt-com-antenna](https://github.com/UMRoboticsTeam/umrt-com-antenna) | ROS Package for the comms antenna stand | Current |
+| Repository                                                                             | Description                             | Status  |
+| -------------------------------------------------------------------------------------- | --------------------------------------- | ------- |
+| [umrt-com-antenna](https://github.com/UMRoboticsTeam/umrt-com-antenna)                 | ROS Package for the comms antenna stand | Current |
+| [umrt-coms-antenna-docker](https://github.com/UMRoboticsTeam/umrt-coms-antenna-docker) | Docker image used on antenna stand      | Current |
+| [umrt-base-station](https://github.com/UMRoboticsTeam/umrt-base-station)               | Docker image used on base station       | Current |
 
 ### Exec/Outreach
 
@@ -116,4 +118,3 @@ These are kept separate to not clutter the above list.
 | Repository                                                                             | Description                                                      | Status     |
 | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | ---------- |
 | [umrt-foxglove-collection](https://github.com/UMRoboticsTeam/umrt-foxglove-collection) | Collection of custom Foxglove UI extensions used on base station | Not in use |
-| [umrt-base-station](https://github.com/UMRoboticsTeam/umrt-base-station)               | Docker image used on base station                                | Not in use |
