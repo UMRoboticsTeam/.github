@@ -44,13 +44,14 @@ Out of this set, `umrt-arm-ros-firmware` is the most important repository.
 
 ### Embedded
 
-| Repository                                                                                                       | Description                                       | Status  |
-| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------- |
-| [umrt-ros-poe-cam](https://github.com/UMRoboticsTeam/umrt-ros-poe-cam)                                           | ROS Package for the PoE Camera                    | Current |
-| [umrt-serial-cam-ros](https://github.com/UMRoboticsTeam/umrt-serial-cam-ros)                                     | ROS Package for the Serial Cameras                | Current |
-| [umrt-emb-imu-driver](https://github.com/UMRoboticsTeam/umrt-emb-imu-driver)                                     | C++ Library for the IMU                           | Current |
-| [umrt-emb-imu-ros](https://github.com/UMRoboticsTeam/umrt-emb-imu-ros)                                           | ROS Package for the IMU                           | Current |
-| [umrt-can-ppm-gateway](https://github.com/UMRoboticsTeam/umrt-can-ppm-gateway/tree/firmware) (`firmware` branch) | MPLAB X files for the custom CAN-PPM gateway PCB. | Current |
+| Repository                                                                                                       | Description                                                         | Status  |
+| ---------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ------- |
+| [umrt-ros-poe-cam](https://github.com/UMRoboticsTeam/umrt-ros-poe-cam)                                           | ROS Package for the PoE Camera                                      | Current |
+| [umrt-serial-cam-ros](https://github.com/UMRoboticsTeam/umrt-serial-cam-ros)                                     | ROS Package for the Serial Cameras                                  | Current |
+| [umrt-emb-imu-driver](https://github.com/UMRoboticsTeam/umrt-emb-imu-driver)                                     | C++ Library for the IMU                                             | Current |
+| [umrt-emb-imu-ros](https://github.com/UMRoboticsTeam/umrt-emb-imu-ros)                                           | ROS Package for the IMU                                             | Current |
+| [umrt-can-ppm-gateway](https://github.com/UMRoboticsTeam/umrt-can-ppm-gateway/tree/firmware) (`firmware` branch) | MPLAB X files for the custom CAN-PPM gateway PCB.                   | Current |
+| [umrt-localization-ros](https://github.com/UMRoboticsTeam/umrt-localization-ros)                                 | ROS2 package for two ZED-F9P GPS' configured in a moving base setup | Current |
 
 
 ### Electrical
@@ -74,9 +75,9 @@ Most of electrical's other files are stored in RapidHarness or Onshape.
 
 | Repository                                                                                           | Description                                                                                                     | Status  |
 | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------- |
-| [umrt-outreach-robotcar-wireless](https://github.com/UMRoboticsTeam/umrt-outreach-robotcar-wireless) | Outreach Arduino showcase program for the Elegoo Smart Robot Car Kit v4.0 with wireless camera feed and control | Current |
 | [umrt-website](https://github.com/UMRoboticsTeam/umrt-website)                                       | Official website built with Nuxt and Vue.js, hosted at [umrt.ca](https://umrt.ca/)                              | Current |
-| [Outreach-RobotCar-Template](https://github.com/UMRoboticsTeam/Outreach-RobotCar-Template)           | Outreach Arduino bot used for sumo bot fights                                                                   | Current |
+| [umrt-outreach-robotcar-wireless](https://github.com/UMRoboticsTeam/umrt-outreach-robotcar-wireless) | Outreach Arduino showcase program for the Elegoo Smart Robot Car Kit v4.0 with wireless camera feed and control | Current |
+| [Outreach-RobotCar-Template](https://github.com/UMRoboticsTeam/Outreach-RobotCar-Template)           | Outreach Arduino code for sumo bots                                                                             | Current |
 
 ## Defunct / Not in use repositories
 
