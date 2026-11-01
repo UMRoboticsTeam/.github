@@ -50,8 +50,6 @@ Out of this set, `umrt-arm-ros-firmware` is the most important repository.
 | [umrt-serial-cam-ros](https://github.com/UMRoboticsTeam/umrt-serial-cam-ros)                                     | ROS Package for the Serial Cameras                | Current |
 | [umrt-emb-imu-driver](https://github.com/UMRoboticsTeam/umrt-emb-imu-driver)                                     | C++ Library for the IMU                           | Current |
 | [umrt-emb-imu-ros](https://github.com/UMRoboticsTeam/umrt-emb-imu-ros)                                           | ROS Package for the IMU                           | Current |
-| [umrt-geiger-driver](https://github.com/UMRoboticsTeam/umrt-geiger-driver)                                       | C++ Library for the Geiger Counter                | Current |
-| [umrt-emb-geiger-ros](https://github.com/UMRoboticsTeam/umrt-emb-geiger-ros)                                     | ROS Package for the Geiger Counter                | Current |
 | [umrt-can-ppm-gateway](https://github.com/UMRoboticsTeam/umrt-can-ppm-gateway/tree/firmware) (`firmware` branch) | MPLAB X files for the custom CAN-PPM gateway PCB. | Current |
 
 
@@ -104,13 +102,15 @@ These are kept separate to not clutter the above list.
 
 ### Embedded
 
-| Repository                                                                                     | Description                    | Status     |
-| ---------------------------------------------------------------------------------------------- | ------------------------------ | ---------- |
-| [umrt-ros](https://github.com/UMRoboticsTeam/umrt-ros)                                         | Monorepo for Prarie Pioneer    | Not in use |
-| [umrt-stm](https://github.com/UMRoboticsTeam/umrt-stm)                                         |                                | Not in use |
-| [umrt-drivetrain-ros](https://github.com/UMRoboticsTeam/umrt-drivetrain-ros)                   | ROS Pacakge for the Drivetrain | Not in use |
-| [oak-poe-rtsp-autoboot](https://github.com/UMRoboticsTeam/oak-poe-rtsp-autoboot)               |                                | Not in use |
-| [embedded-controller-firmware](https://github.com/UMRoboticsTeam/embedded-controller-firmware) |                                | Not in use |
+| Repository                                                                                     | Description                        | Status     |
+| ---------------------------------------------------------------------------------------------- | ---------------------------------- | ---------- |
+| [umrt-ros](https://github.com/UMRoboticsTeam/umrt-ros)                                         | Monorepo for Prarie Pioneer        | Not in use |
+| [umrt-stm](https://github.com/UMRoboticsTeam/umrt-stm)                                         |                                    | Not in use |
+| [umrt-drivetrain-ros](https://github.com/UMRoboticsTeam/umrt-drivetrain-ros)                   | ROS Pacakge for the Drivetrain     | Not in use |
+| [oak-poe-rtsp-autoboot](https://github.com/UMRoboticsTeam/oak-poe-rtsp-autoboot)               |                                    | Not in use |
+| [embedded-controller-firmware](https://github.com/UMRoboticsTeam/embedded-controller-firmware) |                                    | Not in use |
+| [umrt-geiger-driver](https://github.com/UMRoboticsTeam/umrt-geiger-driver)                     | C++ Library for the Geiger Counter | Not in use |
+| [umrt-emb-geiger-ros](https://github.com/UMRoboticsTeam/umrt-emb-geiger-ros)                   | ROS Package for the Geiger Counter | Not in use |
 
 
 ### Comm-Ops
