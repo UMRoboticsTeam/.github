@@ -28,7 +28,7 @@ Out of this set, `umrt-build` is the most important repository. The `ros2_j1939_
 | [umrt-project-perry-config](https://github.com/UMRoboticsTeam/umrt-project-perry-config) | Configuration files specific to a specific rover revision.                                           | Current     |
 | [ros2_j1939_babbler](https://github.com/UMRoboticsTeam/ros2_j1939_babbler)               | A bidirectional ROS-based J1939-to-ROS converter that can transform any CAN message from a DBC file. | Maintenance |
 | [umrt-rover](https://github.com/UMRoboticsTeam/umrt-rover)                               | The docker container that runs on the rover                                                          | Current     |
-
+ 
 ### Robotic Arm
 
 Out of this set, `umrt-arm-ros-firmware` is the most important repository.
@@ -52,7 +52,7 @@ Out of this set, `umrt-arm-ros-firmware` is the most important repository.
 | [umrt-emb-imu-ros](https://github.com/UMRoboticsTeam/umrt-emb-imu-ros)                                           | ROS Package for the IMU                                             | Current |
 | [umrt-can-ppm-gateway](https://github.com/UMRoboticsTeam/umrt-can-ppm-gateway/tree/firmware) (`firmware` branch) | MPLAB X files for the custom CAN-PPM gateway PCB.                   | Current |
 | [umrt-localization-ros](https://github.com/UMRoboticsTeam/umrt-localization-ros)                                 | ROS2 package for two ZED-F9P GPS' configured in a moving base setup | Current |
-
+| [umrt-stm32](https://github.com/UMRoboticsTeam/umrt-stm32)                                                       | C Library for STM32 (motor driver and headlights)                   | Current |
 
 ### Electrical
 
